@@ -11,6 +11,13 @@ body {
   align-items: center; /* Centra verticalmente los elementos en el cuerpo */
   justify-content: center; /* Centra horizontalmente los elementos en el cuerpo */
 }
+@font-face{
+	font-family: fuente1;
+	src: url("DancingScript.ttf");
+}
+body {
+	font-family: fuente1
+}
 .flower {
   height: 200px;
   width: 200px;
@@ -32,7 +39,7 @@ body {
     position: absolute;
     text-align: center;
     color: #000000; /* Color del texto */
-    font-size: 25px; /* Tamaño del texto */
+    font-size: 50px; /* Tamaño del texto */
 }
 
 .text-above {
